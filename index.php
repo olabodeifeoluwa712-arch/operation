@@ -13,20 +13,20 @@ if(!empty($a) && !empty($b)&& !empty($c) && !empty($d)){
     }
 }
 if($c>=0 && $c<=59){
-echo "Your grade in" .$d ." is F";
+echo "Your grade in". "".$d ." is F";
 }
 else if ( $c>=60 && $c <=69){
-    echo "Your grade in " .$d ." is D";
+    echo "Your grade in "  ." " .$d ." is D";
 
 }
 else if ( $c>=70 && $c <=79){
-    echo  "Your grade in" .$d ." is C ";
+    echo  "Your grade in" ." " .$d ." is C ";
 }
 else if ( $c>=80 && $c <=89){
     echo  "Your grade in" ." " .$d ." is D ";
 }
 else{
-    echo "Your grade in" .$d ." is A ";
+    echo "Your grade in"  ." " .$d ." is A ";
 };
 ?>
 
